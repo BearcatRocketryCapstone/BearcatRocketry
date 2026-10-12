@@ -1,5 +1,6 @@
 {
   "name": "uc-rocketry-site",
+  "homepage": "https://BearcatRocketryCapstone.github.io/BearcatRocketry",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,11 +8,15 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "Bearcat Rocketry",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.1.1",
     "svelte": "^4.2.18",
     "vite": "^5.4.21"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
