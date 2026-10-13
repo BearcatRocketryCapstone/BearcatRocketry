@@ -4,7 +4,7 @@
 
   import bgPattern from './assets/bg-lowpoly.svg';
 
-  import logo from './assets/_logo.png';
+  import logo from './assets/Bearcat Rocketry Capstone Logo V1_NB_Red.png';
   import ucFoundationLogo from './assets/UCF_Logo_BlackRed.png';
 
   import sponsorLogo1 from './assets/logos/SolidWorks_Logo.jpeg';
@@ -12,8 +12,8 @@
   import sponsorLogo3 from './assets/logos/iSPACE.jpg';
   import sponsorLogo4 from './assets/logos/CEAS.jpeg';
 
-  //To update the packet, update the Public file and the according name
-  const pdfUrl = `${import.meta.env.BASE_URL}SponsorshipPacket.pdf`;
+  //To update the packet, update the Public/External file and the according name
+  const pdfUrl = `${import.meta.env.BASE_URL}external/SponsorshipPacket.pdf`;
 
   const navLinks = [
     { label: 'Home', path: '/' },

@@ -4,7 +4,7 @@
 
   import bgPattern from './assets/bg-lowpoly.svg';
 
-  import logo from './assets/_logo.png';
+  import logo from './assets/Bearcat Rocketry Capstone Logo V1_NB_Red.png';
   import emailIcon from './assets/icon-email.png';
   import instagramIcon from './assets/icon-instagram.png';
   import linkedinIcon from './assets/icon-linkedin.png';

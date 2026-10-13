@@ -2,7 +2,7 @@
   export let navigate;
   const base = import.meta.env.BASE_URL;
 
-  import logo from './assets/_logo.png';
+  import logo from './assets/Bearcat Rocketry Capstone Logo V1_NB_Red.png';
   import bgPattern from './assets/bg-lowpoly.svg';
 
 

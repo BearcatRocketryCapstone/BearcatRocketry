@@ -13,7 +13,7 @@
   // --- Assets -----------------------------------------------------------
   // Drop your files into src/assets/ and update these imports.
   // Logo:
-  import logo from './assets/_logo.png';
+  import logo from './assets/Bearcat Rocketry Capstone Logo V1_NB_Red.png';
 
   // Hero gallery images — add or remove entries freely, the carousel
   // adapts to however many you provide.
@@ -27,12 +27,12 @@
   import clubHero2 from './assets/20251106_004800000_iOS.jpg';
 
   const slides = [
-    { src: heroImg1, title: 'Bearcat Rocketry' },
+    { src: heroImg1, title: 'Bearcat Rocketry Capstone' },
     { src: heroImg2, title: 'IREC 2027' },
-    { src: heroImg3, title: 'Bearcat Rocketry' },
-    { src: heroImg4, title: 'Bearcat Rocketry'},
-    { src: clubHero1, title: 'Bearcat Rocketry'},
-    { src: clubHero2, title: 'Bearcat Rocketry'}
+    { src: heroImg3, title: 'Bearcat Rocketry Capstone' },
+    { src: heroImg4, title: 'Bearcat Rocketry Capstone'},
+    { src: clubHero1, title: 'Bearcat Rocketry Capstone'},
+    { src: clubHero2, title: 'Bearcat Rocketry Capstone'}
   ];
 
   const navLinks = [
@@ -190,7 +190,7 @@
         on:click|preventDefault={() => navigate('/contact')}
       >Contact Us</a>
     </div>
-    <p class="copyright">&copy; University of Cincinnati's Bearcat Rocketry Capstone - Developed by Rania Haas</p>
+    <p class="copyright">&copy; Bearcat Rocketry Capstone at the University of Cincinnati - Developed by Rania Haas</p>
   </footer>
 
   <slot />
@@ -401,61 +401,6 @@
       font-size: clamp(1.5rem, 8vw, 2.5rem);
       bottom: 10%;
     }
-  }
-  /* ---------- Clean content sections (below the hero) ---------- */
-  main {
-    background: var(--off-white);
-    color: #1f1f1f;
-  }
-
-  main h2 {
-    font-weight: 700;
-    font-size: clamp(1.6rem, 3vw, 2.4rem);
-    margin: 0 0 1rem;
-  }
-
-  main p {
-    line-height: 1.7;
-    font-size: 1.05rem;
-    margin: 0 0 1.5rem;
-    color: #3a3a3a;
-  }
-
-  .intro {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 5rem 2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-  }
-
-  .intro h2 {
-    padding-bottom: 0.6rem;
-    border-bottom: 3px solid var(--accent-red);
-    display: inline-block;
-  }
-
-  .feature {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 4rem;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 3rem 2rem;
-  }
-
-  .feature.reverse .feature-img {
-    order: 2;
-  }
-
-  .feature-img {
-    width: 100%;
-    aspect-ratio: 3 / 2;
-    object-fit: cover;
-    border-radius: 6px;
-    display: block;
   }
 
   .btn {

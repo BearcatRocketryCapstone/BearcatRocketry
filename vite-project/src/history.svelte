@@ -3,7 +3,7 @@
   const base = import.meta.env.BASE_URL;
   import bgPattern from './assets/bg-lowpoly.svg';
 
-  import logo from './assets/_logo.png';
+  import logo from './assets/Bearcat Rocketry Capstone Logo V1_NB_Red.png';
 
   //2026
   import group2026 from './assets/2026/IMG_0150.png';
