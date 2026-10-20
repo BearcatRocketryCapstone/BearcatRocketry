@@ -13,7 +13,7 @@
   import sponsorLogo4 from './assets/logos/CEAS.jpeg';
 
   //To update the packet, update the Public/External file and the according name
-  const pdfUrl = `${import.meta.env.BASE_URL}external/SponsorshipPacket.pdf`;
+  const pdfUrl = `${import.meta.env.BASE_URL}/external/SponsorshipPacket.pdf`;
 
   const navLinks = [
     { label: 'Home', path: '/' },
